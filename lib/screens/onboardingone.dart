@@ -139,7 +139,7 @@ class _OneOnBoardState extends State<OneOnBoard> {
               },
               child: Container(
                 width: buttonWidth,
-                height: heightContext * 0.08,
+                height: 80,
                 decoration: BoxDecoration(
                   color: colorWhite.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(40),
@@ -148,7 +148,7 @@ class _OneOnBoardState extends State<OneOnBoard> {
                   children: [
                     AnimatedContainer(
                       width: buttonOffset + 80,
-                      height: widthContext * 0.2,
+                      height: 80,
                       decoration: BoxDecoration(
                         color: colorAmber,
                         borderRadius: BorderRadius.circular(40),
@@ -159,8 +159,8 @@ class _OneOnBoardState extends State<OneOnBoard> {
                       child: Align(
                         alignment: Alignment.centerRight,
                         child: Container(
-                          width: widthContext * 0.18,
-                          height: widthContext * 0.16,
+                          width: 80,
+                          height: 80,
                           decoration: const BoxDecoration(
                             color: Colors.red,
                             shape: BoxShape.circle,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:orhan_ui/utils/card.dart';
 import 'package:orhan_ui/screens/register.dart';
 import 'package:orhan_ui/utils/misc.dart';
 import 'package:orhan_ui/widgets/inputfield.dart';
@@ -107,7 +108,14 @@ class _LoginScreenState extends State<LoginScreen> {
             PrimaryButton(
               text: "Sign In",
               onPressed: () {
-                if (isValidated()) {}
+                if (isValidated()) {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => CardView(),
+                      ),
+                      (route) => false);
+                }
               },
             ),
             SizedBox(
