@@ -1,16 +1,10 @@
-# orhan_ui
+# AnotherFlutterApp
 
-A new Flutter project.
+Focus on UI.
 
-## Getting Started
+Shows an Onboarding Screen on first startup.
+Tells user to fill form with validation
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/745caa91-5f07-40eb-a34e-e511c3bd8afc" alt="doodoo">
+</div>
